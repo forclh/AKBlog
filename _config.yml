@@ -104,7 +104,7 @@ theme: archer
 deploy:
   type: git
   repo: https://github.com/forclh/forclh.github.io.git # 仓库地址
-  branch: main # 或 master（根据仓库默认分支）
+  branch: gh-pages # 或 master（根据仓库默认分支）
   message: "更新内容: {{ now('YYYY-MM-DD HH:mm:ss') }}" # 自定义提交信息
 
 # 主题 archer
