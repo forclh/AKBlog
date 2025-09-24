@@ -34,7 +34,7 @@ friends:
   # friendA: //www.baidu.com
   # friendB: //www.google.com
 about:
-  enable: true
+  enable: false
   image: /intro/about-bg.jpg
 # Search for website
 search:
@@ -47,15 +47,15 @@ search:
 # You can only use free icons started with 'fab' and 'fas' by default
 # https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free
 profile_icons:
-  enable: false
+  enable: true
   friends: "fas fa-heart"
   about: "fas fa-id-card"
   search: "fas fa-search"
 # Additional profile links
 profile_links:
-  # - name: GOOGLE
-  #   url: //www.google.com
-  #   icon: 'fab fa-google'
+  - name: AK's Docs
+    url: https://ak-docs.vercel.app/
+    icon: "fas fa-book-open"
   # - name: GALLERY
   #   url: //www.unsplash.com
   #   icon: 'fas fa-images'
