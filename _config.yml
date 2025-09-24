@@ -105,7 +105,7 @@ deploy:
   type: git
   repo: https://github.com/forclh/forclh.github.io.git # 仓库地址
   branch: gh-pages # 或 master（根据仓库默认分支）
-  message: "更新内容: {{ now('YYYY-MM-DD HH:mm:ss') }}" # 自定义提交信息
+  message: "Site updated: %s" # 使用默认的提交信息格式
 
 # 主题 archer
 jsonContent:
